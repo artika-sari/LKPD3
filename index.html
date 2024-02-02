@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>lkpd3</title>
+</head>
+<body>
+    <script>
+    //no 1
+        let jeruk = 3000
+        let harga = jeruk*500;
+        let bayar = 0.05*harga;
+        let diskon = bayar - harga
+
+        console.log('harga sebelum diskon', harga)
+        console.log('diskon', diskon)
+        console.log('bayar', bayar)
+
+    //no 2 
+        let bilangan = 2001
+        let satuan = Math.floor (bilangan % 10)
+        let puluhan = Math.floor (bilangan % 100 / 10)
+        let ratusan = Math.floor (bilangan % 1000 / 100)
+        let ribuan = Math.floor  (bilangan % 10000 / 1000)
+
+        console.log('bilangan satuan', satuan)
+        console.log('bilangan puluhan', puluhan)
+        console.log('bilangan ratusan', ratusan)
+        console.log('bilangan ribuan', ribuan)
+
+    //no 3
+        let cuaca = 350;
+
+        if(cuaca >= 300) {
+            console.log('panas')
+        } else if(cuaca <= 250) {
+            console.log('dingin')
+        } else {
+            console.log('normal')
+        }
+
+    </script>
+</body>
+</html>
